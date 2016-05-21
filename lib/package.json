@@ -1,0 +1,9 @@
+{
+  "name": "dts2dartjs",
+  "version": "0.0.0",
+  "description": "dts2dartjs",
+  "main": "app.js",
+  "dependencies": {
+    "typescript": "^1.7.5"
+  }
+}

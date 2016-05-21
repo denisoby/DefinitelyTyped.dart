@@ -1,0 +1,23 @@
+name: dts2dartjs
+version: 0.0.1
+description: Utility for converting TypeScript annotations to Dart.
+dependencies:
+  js: ^0.6.0
+dev_dependencies:
+  test: any
+transformers:
+- $dart2js:
+    checked: false
+    minify: false
+    sourceMaps: true
+    suppressWarnings: false
+    suppressHints: false
+    csp: false
+    commandLineOptions:
+    - --trust-primitives
+#    - --disable-type-inference
+#    - --trust-type-annotations
+#    - --conditional-directives
+#    - --enable-experimental-mirrors
+#    - --suppress-warnings
+#    - --suppress-hints

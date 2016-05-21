@@ -1,0 +1,21 @@
+name: livedb
+version: 0.0.1
+description: A library useful for applications or for sharing on pub.dartlang.org.
+dependencies:
+  exportable: any
+  serialization: any
+  js: ^0.6.0
+dev_dependencies:
+  test: any
+transformers:
+- $dart2js:
+    checked: false
+    minify: false
+    sourceMaps: true
+    suppressWarnings: false
+    suppressHints: false
+    csp: true
+#    commandLineOptions:
+#    - --enable-experimental-mirrors
+#    - --suppress-warnings
+#    - --suppress-hints
