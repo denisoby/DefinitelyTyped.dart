@@ -1,4 +1,4 @@
-dts2dartjs
+DefinitelyTyped.dart
 =====
 
 Converting TypeScript ".d.ts" annotations to dart2js
